@@ -1,11 +1,14 @@
-﻿using System;
+﻿using LaunchPadApi.Models;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
-namespace LaunchPadApi.Extensions
+namespace LaunchPadApi.Services
 {
-    public class SpaceXApiExtension
+    public static class SpaceXApiExtension
     {
+        public static async Task<List<LaunchPad>> GetAllLounchPadInfo(this ISpaceXApiCaller _apiCaller)
+        {
+            return await _apiCaller.GetLaunchPadInfoAsync();
+        }
     }
 }
