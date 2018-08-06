@@ -12,7 +12,7 @@ using Microsoft.Extensions.Logging;
 
 namespace LaunchPadApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/LaunchPads")]
     public class LaunchPadController : Controller
     {
         private ILogger<LaunchPadController> _logger;

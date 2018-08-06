@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaunchPadApi", "LaunchPadAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaunchPadApi.Test", "LaunchPadApi.Test\LaunchPadApi.Test.csproj", "{4788E4CD-0138-4CE8-A61A-3D654E4F8F36}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaunchPadApi.Client", "LaunchPadApi.Client\LaunchPadApi.Client.csproj", "{ED688309-2975-4A50-B3DE-56CB8FD657B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{4788E4CD-0138-4CE8-A61A-3D654E4F8F36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4788E4CD-0138-4CE8-A61A-3D654E4F8F36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4788E4CD-0138-4CE8-A61A-3D654E4F8F36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED688309-2975-4A50-B3DE-56CB8FD657B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED688309-2975-4A50-B3DE-56CB8FD657B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED688309-2975-4A50-B3DE-56CB8FD657B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED688309-2975-4A50-B3DE-56CB8FD657B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
