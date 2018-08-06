@@ -18,9 +18,8 @@ namespace LaunchPadApi.Controllers
         private ILogger<LaunchPadController> _logger;
         private ISpaceXApiCaller _apiCaller;
 
-        public LaunchPadController(/*IWorldRepository repo,*/ ILogger<LaunchPadController> logger, ISpaceXApiCaller apiCaller)
+        public LaunchPadController(ILogger<LaunchPadController> logger, ISpaceXApiCaller apiCaller)
         {
-            //_repo = repo;
             _logger = logger;
             _apiCaller = apiCaller;
         }
