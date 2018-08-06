@@ -11,9 +11,9 @@ namespace LaunchPadApi.Services
 {
     public class SpaceXApiCaller : ISpaceXApiCaller
     {
-        private ILogger _logger;
+        private ILogger<SpaceXApiCaller> _logger;
 
-        public SpaceXApiCaller(ILogger logger)
+        public SpaceXApiCaller(ILogger<SpaceXApiCaller> logger)
         {
             _logger = logger;
         }
